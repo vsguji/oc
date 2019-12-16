@@ -14,6 +14,7 @@
 		E8451F87225E096700D47D43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8451F85225E096700D47D43 /* LaunchScreen.storyboard */; };
 		E8451F8A225E096700D47D43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8451F89225E096700D47D43 /* main.m */; };
 		E8451F93225E09B300D47D43 /* UIButton+touch.m in Sources */ = {isa = PBXBuildFile; fileRef = E8451F92225E09B300D47D43 /* UIButton+touch.m */; };
+		E88C8FC023A71C7600B6DD78 /* PSWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = E88C8FBE23A71C7600B6DD78 /* PSWaveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		E8451F89225E096700D47D43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E8451F91225E09B300D47D43 /* UIButton+touch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+touch.h"; sourceTree = "<group>"; };
 		E8451F92225E09B300D47D43 /* UIButton+touch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+touch.m"; sourceTree = "<group>"; };
+		E88C8FBE23A71C7600B6DD78 /* PSWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWaveView.m; sourceTree = "<group>"; };
+		E88C8FBF23A71C7600B6DD78 /* PSWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWaveView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		E8451F79225E096300D47D43 /* DemoComponent */ = {
 			isa = PBXGroup;
 			children = (
+				E88C8FBD23A71C7600B6DD78 /* UIWaveView */,
 				E8451F90225E097800D47D43 /* UIButton */,
 				E8451F7A225E096300D47D43 /* AppDelegate.h */,
 				E8451F7B225E096300D47D43 /* AppDelegate.m */,
@@ -82,6 +86,15 @@
 				E8451F92225E09B300D47D43 /* UIButton+touch.m */,
 			);
 			path = UIButton;
+			sourceTree = "<group>";
+		};
+		E88C8FBD23A71C7600B6DD78 /* UIWaveView */ = {
+			isa = PBXGroup;
+			children = (
+				E88C8FBE23A71C7600B6DD78 /* PSWaveView.m */,
+				E88C8FBF23A71C7600B6DD78 /* PSWaveView.h */,
+			);
+			path = UIWaveView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88C8FC023A71C7600B6DD78 /* PSWaveView.m in Sources */,
 				E8451F7F225E096300D47D43 /* ViewController.m in Sources */,
 				E8451F8A225E096700D47D43 /* main.m in Sources */,
 				E8451F7C225E096300D47D43 /* AppDelegate.m in Sources */,
